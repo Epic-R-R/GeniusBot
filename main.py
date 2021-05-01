@@ -38,7 +38,7 @@ def button(update: Update, _: CallbackContext) -> None:
 
     query.edit_message_text(text=f"Selected option: {query.data}")
     if query.data == "Search":
-        
+        pass
     elif query.data == "About":
         pass
 
